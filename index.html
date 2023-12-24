@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Dancing Script', cursive;
+			background-image: url('Light.gif'); /* Image */
+            background-size: cover; /* Full Screen */
+            background-color: #b71c1c; /* Red background */ 
+            color: #2e7d32; /* Green Font */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        #animation {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            color: #CB4042; /* Red Title */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+		h3 {
+            color: #CB4042; /* Dark Red Title */
+            font-size: 20px;
+            margin-bottom: 10px;
+        }		
+		
+
+        p {
+            color: #2e7d32; /* Green Font */
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .floating-text {
+            animation: float 2s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        #footer {
+            margin-top: 20px;
+            color: #2e7d32; /* 绿色文字 */
+            font-size: 14px;
+        }
+
+        #footer a {
+            color: #e44d26; /* 红色链接 */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>🎄Frohe Weihnachten, Katharina!🎄</title>
+</head>
+<body>
+    <div id="container">
+        <h1>♥ Liebe Katharina ♥</h1>
+		<h3>🎅🏻 Herzliche Weihnachtsgrüße an Sie und Ihre Lieben! </h3>
+        <div id="animation">
+            <img src="Santa.gif" alt="Santa" class="floating-text" style="width: 300px; height: auto;">
+        </div>
+        <p>Schon wieder geht ein Jahr zu Ende. Es hat euch hoffentlich mehr fröhliche und glückliche Stunden beschert.</p>
+        <p>Möge das neue Jahr uns allen das bringen, was wir so sehnsüchtig erhoffen: <b>Frieden, Gesundheit und Glück</b>.</p>
+		<p>Möge Ihr Herz leicht sein, Ihr Lächeln strahlen und Ihr Weg im kommenden Jahr von Glück gepflastert sein.</p>
+        <div id="footer">
+            <p>Herzliche Grüße von Yutong</p>
+			<p>🎄 24.12.2023 🎄</p>
+			<img src="Bear.gif" alt="Bär" style="width: 300px; height: auto;">
+        </div>
+    </div>
+</body>
+</html>
